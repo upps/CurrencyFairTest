@@ -7,13 +7,13 @@ The json messages must be POST in http://localhost:8080/api/cf/tradeMessage
 The below message was used as the incoming request.
 
 {
-   "userId" : "testUser3",
+   "userId" : "testUser",
    "currencyFrom" : "EUR",
    "currencyTo" : "USD",
    "amountBuy" : 210.00,
    "amountSell" : 800.00,
    "rate" : 0.96,
-   "timePlaced": "21-DEC-18 11:20:03",
+   "timePlaced": "12-NOV-20 17:29:03",
    "originatingCountry" : "FR"
 }
 
