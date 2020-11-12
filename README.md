@@ -1,6 +1,8 @@
 # CurrencyFairTest
 A Spring Boot Application which eposes a REST-API endpoint in order to post the market trade messages in the form of json requests. The application just consumes the incoming json request and process it with the in memory database and provides the response of the consumed message.
-# The json messages must be POST in http://localhost:8080/api/cf/tradeMessage The below message was used as the incoming request.
+
+# The json messages must be POST in http://localhost:8080/api/cf/tradeMessage 
+The below message was used as the incoming request.
 {
    "userId" : "testUser3",
    "currencyFrom" : "EUR",
@@ -11,3 +13,7 @@ A Spring Boot Application which eposes a REST-API endpoint in order to post the 
    "timePlaced": "21-DEC-18 11:20:03",
    "originatingCountry" : "FR"
 }
+
+# In order to view to the cosumed messages http://localhost:8080/results
+
+# Also I have attached the screenshots of testing the request using Postman to check the functionality.
