@@ -1,6 +1,8 @@
 # CurrencyFairTest
 A Spring Boot Application which eposes a REST-API endpoint in order to post the market trade messages in the form of json requests. The application just consumes the incoming json request and process it with the in memory database and provides the response of the consumed message.
 
+The Git-hub url to access the code is https://github.com/upps/CurrencyFairTest.git
+
 The json messages must be POST in http://localhost:8080/api/cf/tradeMessage 
 The below message was used as the incoming request.
 
